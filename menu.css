@@ -1,0 +1,335 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Righteous', cursive;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+.cont-0{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px; */
+    padding: 80px;
+    background: #ffef89;
+    
+}
+.cont-0 .part-0{
+    padding: 30px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid; */
+    width: 300px;
+    background: aliceblue;
+    box-shadow: 5px 5px 10px #dfd48c, -5px -5px 10px #ebdc7a;
+    border-radius: 10px;
+}
+.cont-0 img{
+    height: 100px;
+    display: inline-block;
+    margin: auto;
+}
+
+
+.hotcoffee{
+    background: #ffc0cb;
+    /* background-image: url(images/back\ \(13\).jpg);
+    background-size: cover; */
+    background-attachment: fixed;
+    /* height: 100vh; */
+    padding: 50px 10px;
+}
+.hotcoffee .coffeemenu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hotcoffee .coffeemenu .box{
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+    /* height: 100px; */
+    padding: 30px;
+    border-radius: 20px;
+    background: lightblue;
+    box-shadow:  5px 5px 10px #d9a3ad,
+             -5px -5px 10px #ffdde9;
+}
+.hotcoffee .coffeemenu .box img{
+    height: 100px;
+    display: block;
+    
+    margin: 30px auto;
+
+}
+.hotcoffee .coffeemenu .box h4{
+    margin: 10px 0;
+}
+
+/* --------------------------------------------account------------------------------------- */
+
+#account{
+    background-image: url(images/back\ \(13\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 100vh; */
+}
+#account .box{
+    position: relative;
+    margin: 100px 10px;
+    width: 400px;
+    height: 500px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-left: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    border-radius: 3px;
+    display: block;
+    font-family: cursive;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#account .logo img{
+    height: 200px;
+    display: block;
+    margin: 10px auto 0px;
+}
+#account .logo{
+    line-height: 55px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-left: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    margin-top: 0px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.txt{
+    margin-top: 20px;
+}
+.txt h2{
+    color: rgb(125, 52, 0);
+    margin-bottom: 5px;
+}
+.txt h4{
+    color: chocolate;
+}
+.btn-3{
+    display: block;
+    margin: 30px 0;
+}
+.btn-3 a{
+    display: block;
+    margin: 20px;
+    border: 2px solid;
+    padding: 10px 70px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.btn-3 .login{
+    /* display: block; */
+}
+.login{
+    background: lightblue;
+    transition: all .5s;
+}
+.login:hover{
+    background: rgba(255, 255, 255, 0.502);
+}
+.signup{
+    background: rgba(255, 255, 255, 0.502);
+    transition: all .5s;
+}
+.signup:hover{
+    background: lightblue;
+}
+.signup:active, .login:active{
+    background: red;
+    color: white;
+}
+
+/* ------------------------------------------------Login------------------------------------- */
+
+.content{
+    background-image: url(images/account-back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 50px 0px;
+}
+.content .box{
+    background: #e6e6e6;
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+    border-radius: 20px;
+    display: grid;
+    /* align-items: center; */
+    justify-content: center;
+}
+.txt-2 h1{
+    text-align: center;
+    display: inline-block;
+    margin: 40px 40px 0px 40px;
+    border-radius: 20px;
+    color: rgb(0, 179, 239);
+    padding: 10px 70px;
+    background: #e6e6e6;
+    box-shadow:  5px 5px 10px #c4c4c4,
+             -5px -5px 10px #ffffff;
+}
+.txt-2 h3{
+    margin-top: 15px;
+    text-align: center;
+    color: gray;
+}
+
+.txt-2 .layer{
+    padding: 8px;
+    margin: -20px 0px;
+}
+.txt-2 .layer a{
+    font-size: 28px;
+}
+.content .box form{
+    height: 220px;
+    /* width: 300px; */
+    margin-top: -20px;
+    text-align: center;
+    padding: 20px 20px;
+    background: #e6e6e6;
+    box-shadow:  5px 5px 10px #c4c4c4,
+             -5px -5px 10px #ffffff;
+
+}
+.input-box{
+    margin: 20px 0;
+    width: 100%;
+    height: 40px;
+    background: #e6e6e6;
+    display: flex;
+    box-shadow: inset 5px 5px 10px #c4c4c4,
+            inset -5px -5px 10px #ffffff;
+}
+.input-box span{
+    font-size: 25px;
+    margin: 10px 20px;
+    color: red;
+}
+.input-box input{
+    background: none;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.login-btn{
+    border: 2px solid rgb(2, 144, 192);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 15px;
+    background: #e6e6e6;
+    color: rgb(0, 142, 190);
+    box-shadow:  5px 5px 10px #c4c4c4,
+             -5px -5px 10px #ffffff;
+    transition: all .5s;
+}
+.login-btn a{
+    color: rgb(0, 142, 190);
+}
+.login-btn:hover, .login-btn a:hover{
+    background: rgb(0, 179, 239);
+    color: black;
+}
+.forgot{
+    color: rgb(0, 142, 190);
+}
+
+/* ---------------------------------signup-------------------------------- */
+
+.signup-form{
+    background-image: url(images/account-back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 50px 0px;
+}
+.signup-form .box{
+    background: #e6e6e6;
+    width: 400px;
+    height: 650px;
+    margin: 20px;
+    border-radius: 20px;
+    display: grid;
+    /* align-items: center; */
+    justify-content: center;
+}
+.signup .box .txt-2 h1{
+    text-align: center;
+    display: inline-block;
+    margin: 40px 0 0 0;
+    border-radius: 20px;
+    color: rgb(0, 179, 239);
+    padding: 10px 70px;
+    background: #e6e6e6;
+    box-shadow:  5px 5px 10px #c4c4c4,
+             -5px -5px 10px #ffffff;
+}
+.signup-form .box form{
+    height: 430px;
+    /* width: 300px; */
+    margin: 0px 20px;
+    text-align: center;
+    padding: 20px 20px;
+    background: #e6e6e6;
+    box-shadow:  5px 5px 10px #c4c4c4,
+             -5px -5px 10px #ffffff;
+
+}
+.signup-form .login-btn{
+    display: inline-block;
+    border: 2px solid rgb(2, 144, 192);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 15px;
+    background: #e6e6e6;
+    color: rgb(0, 142, 190);
+    box-shadow:  5px 5px 10px #c4c4c4,
+             -5px -5px 10px #ffffff;
+    transition: all .5s;
+}
+.signup-form .login-btn a{
+    color: rgb(0, 142, 190);
+}
+
+.signup-form .login-btn button{
+    background: none;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    color: rgb(0, 142, 190);
+    cursor: pointer;
+}
+.signup-form .login-btn:hover, .signup-form .login-btn a:hover,
+.signup-form .login-btn button:hover{
+    background: rgb(0, 179, 239);
+    color: black;
+}
